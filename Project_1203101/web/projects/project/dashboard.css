@@ -1,0 +1,63 @@
+body {
+    display: flex;
+    height: 100vh
+    
+}
+
+#addteam {
+    display: block;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(167, 139, 250, 1);
+    padding: 20px;
+    text-align: center;
+    color: rgba(17, 24, 39, 1);
+    border: none;
+    border-radius: 1rem;
+    font-weight: 600;
+    width: 50%;
+    margin-bottom: 20vh;
+    text-decoration: none;
+}
+#removeunderline {
+    text-decoration: none;
+}
+
+h1 {
+    display: block;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.table-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table {
+    border-collapse: collapse;
+    border-color: rgba(167, 139, 250, 1);
+    width: 80%;
+}
+th,
+td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ffffff;
+}
+
+th {
+    background-color: rgba(17, 24, 39, 1);
+    color: #ffffff;
+}
+tbody tr:nth-child(even) {
+    background-color: rgba(17, 24, 39, 0.2);
+}
+
+tbody tr:hover {
+    background-color: rgba(17, 24, 39, 0.3);
+}
+

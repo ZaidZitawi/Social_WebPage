@@ -1,0 +1,74 @@
+.center-div{
+    display: flex;
+    justify-content: center;
+}
+
+.signup-container {
+    align-items: center;
+    width: 500px;
+    height: 550px;
+    border-radius: 1rem;
+    background-color: rgba(17, 24, 39, 1);
+    padding: 4rem;
+    color: rgba(243, 244, 246, 1);
+    margin-bottom: 50px;
+}
+
+.title1 {
+    text-align: center;
+    font-size: 28px;
+    line-height: 1rem;
+    font-weight: 700;
+}
+
+.title2 {
+    text-align: center;
+    font-size: 20px;
+    line-height: 1rem;
+    font-weight: 700;
+}
+
+.form {
+    margin-top: 1.5rem;
+    align-items: center;
+}
+
+.input-group {
+    margin-top: 1rem;
+    font-size: 1rem;
+    line-height: 1rem;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.input-group label {
+    display: block;
+    color: rgba(156, 163, 175, 1);
+    margin-bottom: 4px;
+}
+
+.input-group input {
+    width: 100%;
+    border-radius: 1rem;
+    border: 1px solid rgba(55, 65, 81, 1);
+    background-color: rgba(17, 24, 39, 1);
+    padding: 1rem 0rem;
+    color: rgba(243, 244, 246, 1);
+}
+
+.input-group input:focus {
+    border-color: rgba(167, 139, 250);
+    padding-left: 50px;
+}
+
+.newteam {
+    display: block;
+    width: 100%;
+    background-color: rgba(167, 139, 250, 1);
+    padding: 1rem;
+    text-align: center;
+    color: rgba(17, 24, 39, 1);
+    border: none;
+    border-radius: 0.375rem;
+    font-weight: 600;
+}

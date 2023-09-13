@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>footer</title>
+    <Style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 20px;
+            color: #ffffff;
+        }
+
+        /* Footer styles */
+        .footer {
+            background-color: rgba(17, 24, 39, 1);
+            padding: 20px 0;
+            margin-top: auto;
+        }
+
+        .footertitle {
+            font-size: 18px;
+            font-weight: bold;
+            color: #ffffff;
+            margin-bottom: 10px;
+        }
+
+        .text {
+            color: #ffffff;
+            line-height: 1.5;
+        }
+
+        .phone,
+        .email {
+            margin-right: 5px;
+            color: #ffffff;
+        }
+
+        .socialmedia {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .socialmedia li {
+            display: inline-block;
+            margin-right: 10px;
+        }
+
+        .socialmedia li a {
+            display: block;
+            width: 30px;
+            height: 30px;
+            line-height: 30px;
+            text-align: center;
+            border-radius: 50%;
+            color: #fff;
+        }
+
+        .facebook {
+            background-color: #3b5998;
+        }
+
+        .linkedin {
+            background-color: #0077b5;
+        }
+
+        .instagram {
+            background-color: #e4405f;
+        }
+
+        .socialmedia li a:before {
+            font-family: "Font Awesome";
+            font-size: 14px;
+            content: attr(data-icon);
+        }
+
+        .facebook:before {
+            content: "\f09a";
+        }
+
+        .linkedin:before {
+            content: "\f0e1";
+        }
+
+        .instagram:before {
+            content: "\f16d";
+        }
+
+        .facebook:before,
+        .linkedin:before,
+        .instagram:before {
+            content: "\f000";
+        }
+
+        .socialmedia li a:hover {
+            opacity: 0.8;
+        }
+
+        .socialmedia li a:hover:before {
+            color: #fff;
+        }
+
+        .socialmedia li:last-child {
+            margin-right: 0;
+        }
+
+        .socialmedia li a:focus {
+            outline: none;
+        }
+
+        .socialmedia li a:focus:before {
+            color: #ffffff;
+        }
+
+        .copyright {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 14px;
+            color: #ffffff;
+        }
+    </Style>
+</head>
+
+<body>
+    <footer class="footer">
+        <div class="container">
+            <div class="logo">
+                <img src="images\letter-w.png" alt="Logo">
+                <h1 class="company-name">WebBroTech</h1>
+            </div>
+            <div class="contact-info">
+                <p>Address: Birzeit University, Birzeit, Ramallah</p>
+                <p>Email: webbrotech@info.com</p>
+                <p>Phone: +972-568-989-105</p>
+                <p><a href="contact.html">Contact Us</a></p>
+            </div>
+        </div>
+        <div class="socialmedia">
+            <li><a href="https://www.facebook.com/profile.php?id=100003752475829"><i class="facebook"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/zaid-zitawi-200713274/"><i class="linkedin"></i></a></li>
+            <li><a href="https://www.instagram.com/zaid_zitawi/"><i class="instagram"></i></a></li>
+            </ul>
+            <p class="copyright">Copyright @2023 | Designed by <a href="dashboard.php">WebBroTech</a> All Rights Reserved</p>
+        </div>
+
+    </footer>
+</body>
+
+</html>

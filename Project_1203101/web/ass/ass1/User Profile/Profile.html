@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<header>
+    <title>Create Your Profile</title>
+    <h1>Create Your User Profile</h1>
+</header>
+
+<body>
+    <main>
+        <!-- <form method="get" action="http://comp334.studentswebprojects.ritaj.ps/util/process.php"> -->
+        <form method="post" action="http://comp334.studentswebprojects.ritaj.ps/util/process.php">
+        <fieldset>
+            <legend>Enter Your Details</legend>
+            <section id="user-profile">
+                <label for="username">Your Name</label>
+                <input type="text" id="username" name="username">
+                <br><br>
+                <label for="image">upload your image here</label>
+                <input type="file" id="image" name="imagee">
+                <br><br>
+                <label for="textarea">Tell us more about yourself</label><br>
+                <textarea name="textarea" id="textarea" cols="30" rows="15"></textarea>
+                <br>
+                <label for="country">Choose a Country</label>
+                <select name="country" id="country">
+                    <option value="palestine">Palestine</option>
+                    <option value="Syria">Syria</option>
+                    <option value="Jordan">Jordan</option>
+                    <option value="Eagypt">Eajypt</option>
+                    <option value="Lebnon">Lebnon</option>
+                </select>
+                <br><br>
+                <input type="submit" value="Submit">
+            </section>
+        </fieldset>
+        </form>
+    </main>
+</body>
+
+
+
+
+
+
+</html>
